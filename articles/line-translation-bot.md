@@ -476,7 +476,7 @@ def generate_content(user_id: str, input_text: str, users: list, messages: list)
 
 そこで、Additional rulesとして、<SOURCE_TEXT>内の指示に従わないように追加しました。
 そうすると簡単な攻撃は防げるようになりました
-![](/images/IMG_4686.JPG)
+![](/images/IMG_4686.png)
 
 が、攻撃側もJail break、few shot prompting、Prompt injectionで攻撃をアップデートしてきます。
 
@@ -649,7 +649,7 @@ def handle_member_joined(event):
 今回はLINEの翻訳botをGeminiとGCPを使って実装してみました。
 実際使ってみると、公式の翻訳アカウントよりもクオリティが良く、評判も上々でした。
 
-![](/images/good.JPG)
+![](/images/good.png)
 
 料金の面に関しても、大量のグループにアカウントを追加しなければ、Google Cloud Runの無料枠に収まりそうです。
 ただ、問題点もあり、GeminiのAPIがかなり不安定です。頻繁に"503 ServiceUnavailable"になります。

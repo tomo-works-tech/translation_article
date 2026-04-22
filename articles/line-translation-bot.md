@@ -1,5 +1,5 @@
 ---
-title: "GeminiとGCPを用いてLINEの翻訳botを作ってみた"
+title: "GeminiとGCPを用いて性能の良いLINE翻訳botを目指す"
 emoji: "💬"
 type: "tech" 
 topics: [Gemini, GCP, LINE]

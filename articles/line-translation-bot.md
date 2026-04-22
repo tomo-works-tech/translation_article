@@ -655,3 +655,4 @@ def handle_member_joined(event):
 ただ、問題点もあり、GeminiのAPIがかなり不安定です。頻繁に"503 ServiceUnavailable"になります。
 これはGemini APIの中で最も翻訳に向いてそうなモデル、Gemini 3.1 Flash-Lite Previewが、Previewであることに関係していそうです。
 加えて、レスポンスが異常に遅い時があります。無料のAPIを使っているとはいえ、許容できないくらいの遅さの時があり、もう少し安定した、レスポンスの早いモデルを探す必要がありそうです。
+
